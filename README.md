@@ -6,7 +6,11 @@ A simple telegram bot that once a day sends BTC/USD, ETH/USD and DOGE/USD prices
 
 1. Install Python 3.x
 2. Clone this repository
-3. Install dependencies:
+3. Go to the folder:
+
+        cd crypto-prices-bot
+
+4. Install dependencies:
 
         pip install -r requirements.txt
 
