@@ -19,7 +19,7 @@ def compound(name):
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.send_message(message.from_user.id, 'This bot once a day sends BTC/USD, ETH/USD and DOGE/USD price and price change')
+    bot.send_message(message.from_user.id, 'This bot once a day sends BTC/USD, ETH/USD and DOGE/USD prices and price changes')
 
 @bot.message_handler(commands=['startthis'])
 def startthis(message):
